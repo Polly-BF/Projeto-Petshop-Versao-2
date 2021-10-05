@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetty's Dog</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+<body>
+        <!-----------------------------------HEADER ------------------------------------>
+        <header class="banner">
+            <img width="100%" height="300px"src="imagens/banner.jpg" alt="Imagem de cachorros"/>       
+        </header>
+
+        <!-----------------------------------NAV -------------------------------------->
+        <nav>
+            <!--Menu de navegação da página-->
+            <div class="divBotao">
+                <a href="index.html"><img class="imgBotao" src="imagens/botoes/home.png"></a>
+                <a href="creche.html"><img class="imgBotao" src="imagens/botoes/creche.png"></a>
+                <a href="estetica.html"><img class="imgBotao" src="imagens/botoes/estetica.png"></a>
+                <a href="hotel.html"><img class="imgBotao" src="imagens/botoes/hotel.png"></a>
+                <a href="loja.html"><img class="imgBotao" src="imagens/botoes/vendas.png"></a>
+                <a href="contato.html"><img class="imgBotao" src="imagens/botoes/contato.png"></a>
+                
+                <!--Problema ao alinhar carrinho a direita do site - VERIFICAR-->
+                <!-- <div class="divCarrinho"></div> -->
+            </div>            
+        </nav>
+
+        <!--Linha usada como divisão e organização do conteúdo-->
+        <div class="linha neutro"></div>
+        <!-----------------------------------MAIN ------------------------------------>
+        <main class="flex_main">
+            <section>
+                <h3>
+                    Um pouco da nossa história...
+                </h3>
+                <br>
+                <article>
+                    <p>
+                        A mais de 10 anos atuando no ramo Pet, contiuamos dia após dia buscando a excelência na prestação de nossos serviços tendo 
+                        como principal ponto de partida o amor aos animais.
+                    </p>
+
+                    <p>
+                        Por isso não trabalhamos com gaiolas, seu amicão aguarda a vez dele de tomar banho em um ambiente seguro, tranquilo e espaçoso.
+                        Isto mantem eles calmos e felizes.<br>                                  
+                    </p>
+                    <br>
+
+                    <p>
+                        <!--Utilização do figure e utilização de legenda para a imagem-->
+                        <figure>
+                            <img class="divImgHome" src="imagens/antes_do_banho.jpeg" alt="Cachorros sentados" title="Aguardando o banho">
+                            <figcaption>Aguardando a hora do banho</figcaption>
+                        </figure>
+                    </p><br><br>
+
+                    <!--!Utililização do ASIDE-->
+                    <H4>
+                        Cães e Gatos
+                    </H4>
+                    <br>   
+                        <!--Retirado <p> devido a problemas de formatação - VERIFICAR  
+                            como solução paleativa foi colocado formatação no <article>
+                            na linha 82 do css-->
+                        
+                        Atualmente nos serviços de <strong>Banho e Tosa</strong> nos limitamos ao atendimento excluiso para cãess, pois assim somos capazes de prestar um serviço com qualidade e dedicação.<br><br>
+                        Também temos o serviço de creche, conhecido também como <strong>Day care</strong>. Este serviço é fundamental considerando aspectos ligados a saúde mental e física do animal.<br><br><br>
+                   
+                </article> 
+
+                <br/>
+                 <!--Informações de prova social-->        
+                 <section>
+                     <!--Linha para organização estética-->
+                     <div class="linha"></div>
+                     <br/>
+                    <h3 align="center">Alguns dos depoimentos de nossos clientes !</h3>
+                    <br/>
+                    <!--Linha para organização estética-->
+                    <div class="linha"></div>                
+
+                    <article>
+                        <img src="imagens/depoimentos/depoimento1.jpg" alt="Depoimento de cliente" title="Depoimento de cliente">
+                    </article>
+
+                    <article>
+                        <img src="imagens/depoimentos/depoimento2.jpg" alt="Depoimento de cliente" title="Depoimento de cliente">
+                    </article>
+
+                    <article>
+                        <img src="imagens/depoimentos/depoimento3.jpg" alt="Depoimento de cliente" title="Depoimento de cliente">
+                    </article>
+                    <br/><br/>
+                </section>
+            </section>
+       
+        </main>
+
+        <!-- Usado align como medida paleativa para alinhar copyright - VERIFICAR -->
+        <footer align="center">
+            <!--Utilização do ADDRESS-->
+            <!--Retirado address devido a problemas com alinhamento - VERIFICAR-->
+            <!--<address>-->
+                <h3 align="center">Rua dos Cachorros, nº 123 - Vila Ema - São Paulo - SP - WhatsApp: (11)98051-7425 | (11) 1111-2222 </h3>
+            <!--</address>-->
+            
+            <!--Informações de Copyright-->           
+                &copy; Todos os direitos reservados           
+        </footer>        
+</body>
+</html>

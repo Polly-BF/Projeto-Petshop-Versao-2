@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*Evita alteração quando usado o padding*/
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    /*Abaixo uma tentativa de alinhamento sem sucesso - VERIFICAR*/
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+
+
+/**************************************Classes usadas no Header***********************************/
+/*Estilização do Banner*/
+/*Usado margin-left e margin-right para alinhamento central do banner - VERIFICAR*/
+.banner{
+    width: 100%;
+    height: 300px;
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**************************************Classes usadas no Nav***********************************/
+
+/*Utilizado display flex para alinhar botões na horizontal - VERIFICAR*/
+nav{
+    width: 100%;
+    height: 110px;
+    line-height: 45px;
+    background-color: #fff;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;  
+ }
+
+
+/*Problemas ao centralizar o menu - VERIFICAR*/
+/*Estilização do Menu*/
+/*Estilização botão - A imagem de fundo está sendo puxada pelo html*/
+.imgBotao{
+    width: 120px;
+    height: 100px;
+    border-radius: 60%;
+    cursor: pointer;    
+}
+
+/*Define o efeito de fundo da imagem na pagina home*/
+.imgBotao:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/**************************************Classes usadas no Main***********************************/
+
+/*Estilização Imagem da página principal*/
+.divImgHome{
+    width: 650px; 
+    height: 450px;   
+    border-radius: 15px;
+    border: 2px solid gray;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*Estilização do conteúdo da página principal*/
+.flex_main{
+    width: 100%;
+    /*Não foi colocado o fundo branco na página para dar o efeito de linha embaixo do botão*/
+    /* background-color:white; */
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+article{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*************************************Usado na Página Produtos*************************************/
+/*Tabela de produtos*/
+.tabelaProdutos{
+    padding: 20px;
+}
+
+/*Estilização da tabela produtos*/
+ul{
+    line-height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.descricaoProdutos{
+    line-height: 15px;
+    margin-top: 5px;
+}
+
+table{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*************************************Usado na Página Contato**************************************/
+
+
+/***************Formulários**************/
+
+/*Espaço interno formulário de contato*/
+.formularioContato{
+    padding: 20px;
+}
+
+/*Utilizado clear para colocar embaixo do formulário anterior*/
+.formularioCadastro{
+    padding: 20px;
+    clear: both;    
+}
+
+/***************Fieldsets**************/
+
+/*Estilização do Field de Contato*/
+.fieldContato{
+    width: 600px;
+    height: 420px;
+    padding: 20px;
+    border-radius: 10px;
+ }
+
+/*Estilização do Field de Cadastro do cliente*/
+.fieldCadCliente{
+    width: 550px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ /*Estilização do formulário de Contato
+   Este fielset engloba os dois fiedsts (Dados do Cliente e Dados do Pet) */
+ .fieldCadastro{
+    width: 600px;
+    height: 670px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*Estilização do Field de Cadastro do pet*/
+.fieldCadPet{
+    width: 550px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+/***************Labels**************/
+
+/*Formatação das Labels*/
+label{
+    padding: auto;
+    font-weight: bold;
+    margin: 7px;    
+}
+
+
+/*Estilização das Labels*/
+.divLabels{
+    width: 100px;
+    height: 200px;
+}
+
+
+/***************Inputs**************/
+
+/*Estilização do texto "Convidando usuário a se cadastrar" */
+/*Utilizado float para alinhar verticalmente os formulários*/
+.textoPromocaoCadastro{
+    width: 100%;
+    float: left;
+    background-color: yellow;
+    padding-left: 20px;
+}
+
+/*Estilização dos campos de texto da página contato*/
+input{
+    padding: 5px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+/*Estilização dos inputs para alinhamento do formulario Cadastro do Cliente*/
+.divInputs{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+
+/*Estilização das caixas de texto dos formulários*/
+.caixaTexto{
+    width: 420px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin-left: 2px;
+}
+
+/*Estilização da Área de Mensagem do formulário*/
+.areaTexto{
+    width: 420px;
+    height: 100px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size:16px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+/*Estilização do seletor*/
+.options{
+    width: 420px;
+    height: 35px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+/***************Botões**************/
+
+/*Estilização das imagens dos botões*/
+.botao{    
+    font-weight: bold;
+    cursor: pointer;  
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+/*Estilização ao se clicar no botão*/
+.botao:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+/*Usado display flex para alinhar horizontalmente*/
+.alinhamentoContato{
+    display: flex;
+}
+
+/***************************************Classes usadas no Footer*********************************/
+/*Estilização do Rodapé*/
+/*Problemas de responsividade, cortando copyright- Verificar*/
+footer{
+    width: 100%;
+    height: 50px;
+    background-color:#04B431;
+    clear: both;    
+    /*line-height: 100px;*/
+    color: white;
+    padding-top: 5px;
+}
+
+/*****************************Classes usados em todo o site***************************************/
+
+ /*Linha auxiliar para organização do conteúdo*/
+ .linha{
+    width: 100%;
+    border:1px solid gray;
+    float: left;
+}
+
+/*Linha auxiliar para organização do conteúdo*/
+.neutro{
+    border: 1px solid white;
+}
+
+/*Carrinho de compras*/
+.divCarrinho{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    float: right;
+}
+
+ 
+/*Estilização do Parágrafo*/
+/*Utilizado responsividade no texto*/
+p{
+    line-height: 35px;
+    display: flex; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
