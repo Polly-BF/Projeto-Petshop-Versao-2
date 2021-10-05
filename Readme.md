@@ -1,6 +1,6 @@
 ﻿## Nome do Projeto
 
-Pet's Dog
+Tetty's Dog
 
 ## Descrição
 
