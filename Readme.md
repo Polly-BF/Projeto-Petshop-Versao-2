@@ -1,16 +1,26 @@
-﻿## Nome do Projeto
 
-Tetty's Dog
+<h1 align="center">Tetty's Dog </h1>
+<h3 align="center">Site de Petshop</h3>
 
-## Descrição
+---
 
-Trata-se de um site para um pethop.
-O site foi desenvolvido até este momento utilizando apenas HTML5 e CSS3.
+## SoulCode Challenge 💡
 
-## Objetivo
-Desenvolver 03 páginas em HTML5 e CSS3. Utilizar o máximo possível das tags estudadas durante o cursto até este momento.
-Implementar responsividade no projeto.
+Desafio de HTML5, CSS3 proposto pela <strong>Soul Code</strong>, EDTECH brasileira com <i>inclusão social.</i>
 
-## Observação
-O site ainda apresenta problemas na responsividade. 
-Estes problemas estão sendo tratados e os arquivos estão sendo atualizados.
+- <a href="https://soulcodeacademy.org/">SoulCode</a>
+
+## Techs 🛠
+
+- HTML5
+- CSS3
+
+---
+
+## Authors 👨‍💻
+
+- GitHub: [@Fabio](https://github.com/fabiomdg1)
+
+---
+
+Copyright - 2021 Fabio Mattos, | SoulCode Challenge
